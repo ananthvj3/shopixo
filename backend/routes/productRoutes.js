@@ -272,7 +272,7 @@ router.get("/:id", async (req, res) => {
     console.error(err);
     res.status(500).send("Server Error");
   }
-});
+})
 
 
 
