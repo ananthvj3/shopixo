@@ -1,12 +1,14 @@
 import React from 'react';
 import heroImg from '../../assets/assets/rabbit-hero.webp';
-import {Link} from  'react-router-dom'
+import {Link, useNavigate} from  'react-router-dom'
+import homeImg from '../../assets/assets/home.avif'
 
 const Hero = () => {
+ 
   return (
     <>
     <section className='relative'>
-        <img src={heroImg} alt="Rabbit"  className='w-full h-[400px] md:h-[600px] lg:h-[750px] object-cover'/>
+        <img src={homeImg} alt="Rabbit"  className='w-full h-[400px] md:h-[600px] lg:h-[750px] object-cover'/>
 
         <div className="absolute inset-0 bg-opacity-5 flex items-center justify-center">
             <div className='text  center text-white p-6'>
@@ -14,7 +16,7 @@ const Hero = () => {
                     Vacation <br/> Ready
                     </h1>
                     <p className="text-sm tracking-tighter md:text-lg mb-6 ">Explore our vaction-ready oitfit with worldwide shipping. </p>
-                    <Link to="#" className="bg-white text-gray-950 px-6 py-3 rounded-sm text-lg ">
+                    <Link to="/collections/all?gender=Men" className="bg-white text-gray-950 px-6 py-3 rounded-sm text-lg ">
                     Shop Now</Link>
             </div>
         </div>
