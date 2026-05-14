@@ -36,7 +36,7 @@ const products = [
     price: 29.99,
     discountPrice: 24.99,
     countInStock: 35,
-    sku: "SLIM-SH-002",
+    sku: "SLIM-SH-003",
     category: "Top Wear",
     brand: "Modern Fit",
     sizes: ["S", "M", "L", "XL"],
