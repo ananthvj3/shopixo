@@ -75,7 +75,7 @@ useEffect(()=>{
             ):(
               <tr>
                 <td colSpan={7} className='py-4 px-4 text-center textgray500 '> 
-                  You have no orders
+                  You have no Orders
                 </td>
               </tr>
             )}
